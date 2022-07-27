@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: echo "Hello World" > ~/output.txt
+          command: echo "hello world" > ~/output.txt
   print_output_file:
     docker:
       - image: circleci/node:13.8.0
